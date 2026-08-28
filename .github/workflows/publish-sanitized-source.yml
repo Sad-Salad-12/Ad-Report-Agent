@@ -1,0 +1,43 @@
+name: Publish anonymized source
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-sanitized-source.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify the anonymized source archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive="/tmp/ad-report-agent-source.zip"
+          unpack_dir="/tmp/ad-report-agent-source"
+          curl -fL --retry 3 -o "$archive" "https://github.com/Sad-Salad-12/Ad-Report-Agent/releases/download/v0.4.0-alpha/Ad-Report-Agent-v0.4.0-anonymized-source.zip"
+          echo "b298463d6ed37e273555fc5a6f4843e2449571efdfe14692024cddf6a7022899  $archive" | sha256sum -c -
+          mkdir -p "$unpack_dir"
+          unzip -oq "$archive" -d "$unpack_dir"
+          cp -a "$unpack_dir/ad-report-agent-public-release/." .
+          rm -f .github/workflows/publish-sanitized-source.yml
+          rmdir .github/workflows .github 2>/dev/null || true
+
+      - name: Commit source tree to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish anonymized Ad Report Agent source"
+          git push origin HEAD:main
