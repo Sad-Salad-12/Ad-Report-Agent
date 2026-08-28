@@ -1,0 +1,22 @@
+[
+  {
+    "market": "MARKET A",
+    "period_start": "2024-12-30",
+    "period_end": "2025-01-05",
+    "amount_spent": 2800,
+    "purchase_value": 4900,
+    "purchase_roas": 1.75,
+    "purchases": 33,
+    "adds_to_cart": 170,
+    "cost_per_purchase": 84.84848485,
+    "cost_per_add_to_cart": 16.47058824,
+    "link_clicks": 10600,
+    "ctr": 1.06,
+    "add_to_cart_rate": 1.6037740000000003,
+    "source": {
+      "kind": "synthetic_seed",
+      "file": "DEMO-previous-period.json",
+      "note": "Fully synthetic prior-period values generated with the documented fixed seed."
+    }
+  }
+]

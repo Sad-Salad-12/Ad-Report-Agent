@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "generated_from": "fully_synthetic_generic_demo_schema",
+  "period": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "scenarios": [
+    {
+      "folder": "01_balanced_baseline",
+      "name_zh": "均衡基线",
+      "name_en": "Balanced baseline",
+      "current_overall": {
+        "spend": 3020,
+        "value": 6308,
+        "purchases": 39,
+        "addsToCart": 192
+      },
+      "previous_overall": {
+        "start": "2024-12-30",
+        "end": "2025-01-05",
+        "spend": 2800,
+        "value": 4900,
+        "purchases": 33,
+        "addsToCart": 170
+      },
+      "files": {
+        "TEST-weekly-report-overall.xlsx": {
+          "sha256": "d1d027653ee699ab2d54384963dd9b71872cccbc3370e6e020924ace69511e95",
+          "bytes": 5356
+        },
+        "TEST-weekly-report-by-day.xlsx": {
+          "sha256": "611010bdb589cd40b1c3aa9d8afdc839a8537206c19f2b266ce8f2b69b3509d7",
+          "bytes": 5569
+        },
+        "TEST-weekly-report-by-product.xlsx": {
+          "sha256": "82410c0798894720b58f7877b23c9590db309db918039371b31e53d190e0b98e",
+          "bytes": 5659
+        },
+        "TEST-weekly-report-campaign.xlsx": {
+          "sha256": "10c322e42b689922ed247b62bc76be2e27ee488369dc9a1e9229e03f92f75ae5",
+          "bytes": 6440
+        },
+        "TEST-weekly-report-creative.xlsx": {
+          "sha256": "fb25e7094d53a00c93b960554c6251aadbcd14e83311fe05f5a1a4d6aa3542a1",
+          "bytes": 7865
+        },
+        "TEST-weekly-report-traffic-campaign.xlsx": {
+          "sha256": "f2681526edcde4977aafa964daee288a54932a2b6db8fa131ef2a64d6b618816",
+          "bytes": 5663
+        },
+        "TEST-weekly-report-audience.xlsx": {
+          "sha256": "26c6feefe98af0260b94e822824019f09f9c4f73276cfe714a3419ef2f103b71",
+          "bytes": 5334
+        },
+        "TEST-search-keyword-report.csv": {
+          "sha256": "2b3037cd5684d993b75c6603c50311443019eebbd5ab88407db31175084243d7",
+          "bytes": 85814
+        }
+      }
+    },
+    {
+      "folder": "02_growth_surge",
+      "name_zh": "增长加速",
+      "name_en": "Growth surge",
+      "current_overall": {
+        "spend": 3375,
+        "value": 7931,
+        "purchases": 48,
+        "addsToCart": 228
+      },
+      "previous_overall": {
+        "start": "2024-12-30",
+        "end": "2025-01-05",
+        "spend": 2800,
+        "value": 4900,
+        "purchases": 33,
+        "addsToCart": 170
+      },
+      "files": {
+        "TEST-weekly-report-overall.xlsx": {
+          "sha256": "2e5de4fcab12dd13a7f8d24512e8e32c9add43cc1f98da34f2aee0299e8d40d7",
+          "bytes": 5353
+        },
+        "TEST-weekly-report-by-day.xlsx": {
+          "sha256": "253c2b11ba2279c25139b4be443211d43e174f4ee5c05269122e04e4d16c092e",
+          "bytes": 5567
+        },
+        "TEST-weekly-report-by-product.xlsx": {
+          "sha256": "3517d604526434cba6f769750b41d8370f2080f98e1f332aaf60324aa736d7c2",
+          "bytes": 5673
+        },
+        "TEST-weekly-report-campaign.xlsx": {
+          "sha256": "7a3c5f5d261ec143910389391b875fcb02728d499c385d7788a4ca006af307d1",
+          "bytes": 6436
+        },
+        "TEST-weekly-report-creative.xlsx": {
+          "sha256": "f704da985d76d89df4e8c39f03e9742b5f2cad85fb1d5333084d4229642cbc44",
+          "bytes": 7869
+        },
+        "TEST-weekly-report-traffic-campaign.xlsx": {
+          "sha256": "8fee6f29e9b3936ae05937a0839735a9cdf63e432949cfeb069b1b687cc5f48b",
+          "bytes": 5667
+        },
+        "TEST-weekly-report-audience.xlsx": {
+          "sha256": "b7fe1b85ba5a0dffe978f369681d765e650203e83b1dd04bea1caafd207e45af",
+          "bytes": 5329
+        },
+        "TEST-search-keyword-report.csv": {
+          "sha256": "0e91523fffacd966190fc4ae184d8c2698ba758b2a87f59fffe8be038ad942cf",
+          "bytes": 86100
+        }
+      }
+    },
+    {
+      "folder": "03_efficiency_gain",
+      "name_zh": "效率提升",
+      "name_en": "Efficiency gain",
+      "current_overall": {
+        "spend": 3150,
+        "value": 8505,
+        "purchases": 52,
+        "addsToCart": 241
+      },
+      "previous_overall": {
+        "start": "2024-12-30",
+        "end": "2025-01-05",
+        "spend": 2800,
+        "value": 4900,
+        "purchases": 33,
+        "addsToCart": 170
+      },
+      "files": {
+        "TEST-weekly-report-overall.xlsx": {
+          "sha256": "4a5daa63417d24eb4691f7a08d9161b6f612dcc114a8a13e293228918f8a1eb3",
+          "bytes": 5351
+        },
+        "TEST-weekly-report-by-day.xlsx": {
+          "sha256": "fe813bba9c23b4ce4ea0083d8a6e840ed825edf803173c74a1321d67797ea198",
+          "bytes": 5531
+        },
+        "TEST-weekly-report-by-product.xlsx": {
+          "sha256": "c5ade474af54175f4db1fdae86aa88ad5948f956128098e7adc0bf283aac0b71",
+          "bytes": 5690
+        },
+        "TEST-weekly-report-campaign.xlsx": {
+          "sha256": "821a26361f9be2fe3d46c1f6b40a3d57476b68ebf23a7dfc75e7df6af604bbde",
+          "bytes": 6454
+        },
+        "TEST-weekly-report-creative.xlsx": {
+          "sha256": "d897aef5b126a1f6ed4f5aafeb5fb5a2a80b94791b3dfcc29e04bb931eb1f617",
+          "bytes": 7879
+        },
+        "TEST-weekly-report-traffic-campaign.xlsx": {
+          "sha256": "fa4634ceb73fc8712283861ac50b2255c8d19a43cdf5710f6c7024cc5025ba42",
+          "bytes": 5718
+        },
+        "TEST-weekly-report-audience.xlsx": {
+          "sha256": "431852264174f9b9a2cfbf726c7304eca6ed888c173950c47ddca43fd6d43c53",
+          "bytes": 5336
+        },
+        "TEST-search-keyword-report.csv": {
+          "sha256": "b33bee0661d98166f517ad31f2359d3623cd22681508677c77d6143976054a4b",
+          "bytes": 86096
+        }
+      }
+    },
+    {
+      "folder": "04_traffic_spike",
+      "name_zh": "流量激增",
+      "name_en": "Traffic spike",
+      "current_overall": {
+        "spend": 4100,
+        "value": 7380,
+        "purchases": 44,
+        "addsToCart": 260
+      },
+      "previous_overall": {
+        "start": "2024-12-30",
+        "end": "2025-01-05",
+        "spend": 2800,
+        "value": 4900,
+        "purchases": 33,
+        "addsToCart": 170
+      },
+      "files": {
+        "TEST-weekly-report-overall.xlsx": {
+          "sha256": "aa1f063c8287c81e7679d6323b2feb94cc3d07d10ce9befea6708ba04d374681",
+          "bytes": 5344
+        },
+        "TEST-weekly-report-by-day.xlsx": {
+          "sha256": "cf110a5b3cef6f9551b6712a83963bf9cd7dbfd8303c1325af12be93aaa044cb",
+          "bytes": 5571
+        },
+        "TEST-weekly-report-by-product.xlsx": {
+          "sha256": "9686bb71b658f97b78f459d8ee0e25d120bf61365d619afa8853d2c661a793a5",
+          "bytes": 5681
+        },
+        "TEST-weekly-report-campaign.xlsx": {
+          "sha256": "635d0dc5567d94685b49c8893ea0f9ccba2c9aff584e02e883a95e125b80b639",
+          "bytes": 6435
+        },
+        "TEST-weekly-report-creative.xlsx": {
+          "sha256": "01db251493511219a8411b3b101feb073f30ddac588c665a33e48bc856880ed7",
+          "bytes": 7885
+        },
+        "TEST-weekly-report-traffic-campaign.xlsx": {
+          "sha256": "c69f8e88313ed0d0cc58285c0e532277efeac2dd49ecefda1cacd7480f08eb75",
+          "bytes": 5684
+        },
+        "TEST-weekly-report-audience.xlsx": {
+          "sha256": "4dd3f8574448aeb5b69f7cd68ea27e26c785906e09fb8306092f8a4c42b2ecaf",
+          "bytes": 5319
+        },
+        "TEST-search-keyword-report.csv": {
+          "sha256": "00ed482711da7f9f91cf6ad4b720eafb671dfe7f082f24c7d739c2033f6beabe",
+          "bytes": 85976
+        }
+      }
+    },
+    {
+      "folder": "05_conversion_recovery",
+      "name_zh": "转化恢复",
+      "name_en": "Conversion recovery",
+      "current_overall": {
+        "spend": 2890,
+        "value": 6849,
+        "purchases": 43,
+        "addsToCart": 205
+      },
+      "previous_overall": {
+        "start": "2024-12-30",
+        "end": "2025-01-05",
+        "spend": 2800,
+        "value": 4900,
+        "purchases": 33,
+        "addsToCart": 170
+      },
+      "files": {
+        "TEST-weekly-report-overall.xlsx": {
+          "sha256": "b565e6af7297e4f3298c38953b6d5a720162b3f1a63512dc4ace5dbec7dcb8bd",
+          "bytes": 5354
+        },
+        "TEST-weekly-report-by-day.xlsx": {
+          "sha256": "caacc7227a93e35fdcdbdc9b8e9fbf17e2a3ccdef3faa88b041e3baa4700a616",
+          "bytes": 5565
+        },
+        "TEST-weekly-report-by-product.xlsx": {
+          "sha256": "b5723851d722d89ae91f941d0b92c84d4a4b4521d98908300abdc6ee5e61eae9",
+          "bytes": 5669
+        },
+        "TEST-weekly-report-campaign.xlsx": {
+          "sha256": "580aabb4661e6f7af52852f6523b6c97861bf8c35a4cf2f163fee8e8b6cce44e",
+          "bytes": 6420
+        },
+        "TEST-weekly-report-creative.xlsx": {
+          "sha256": "86d652f839d572a70e1ebba4b93382022d5bfe77d90adebaeb52d2b571875214",
+          "bytes": 7863
+        },
+        "TEST-weekly-report-traffic-campaign.xlsx": {
+          "sha256": "bed840e490942a840fbf6f9fee08ea63f3876071a0f188e88cf73adaec1ddb48",
+          "bytes": 5685
+        },
+        "TEST-weekly-report-audience.xlsx": {
+          "sha256": "4a5e59885d4192397816fba8f870472f0a65265c0d2145dc416686015cda4b7c",
+          "bytes": 5335
+        },
+        "TEST-search-keyword-report.csv": {
+          "sha256": "cfef88c2ca7b5ed311db86fc163d11cc62d8029ac78a9a20dce22e8cb7fbbcc1",
+          "bytes": 85936
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+tmp/
+history/*.sqlite3
+dist/

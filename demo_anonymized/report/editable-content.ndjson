@@ -1,0 +1,61 @@
+{"kind":"textbox","id":"sh/c7qp4jux","slide":1,"name":"slot.cover.report_title","text":"BRAND A · PAID MEDIA WEEKLY REPORT","textPreview":"BRAND A · PAID MEDIA WEEKLY REPORT","textChars":34,"textLines":1,"bbox":[52,195,545,100]}
+{"kind":"textbox","id":"sh/za18fedo","slide":1,"name":"slot.cover.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[54,365,420,36]}
+{"kind":"textbox","id":"sh/y98769c3","slide":1,"name":"slot.cover.country","text":"Region: REGION A","textPreview":"Region: REGION A","textChars":16,"textLines":1,"bbox":[54,403,420,36]}
+{"kind":"textbox","id":"sh/yxcneh8j","slide":2,"name":"decor.slide_title","text":"Paid Media Overall Performance · MARKET A","textPreview":"Paid Media Overall Performance · MARKET A","textChars":41,"textLines":1,"bbox":[38,20,1090,48]}
+{"kind":"textbox","id":"sh/zyl4n294","slide":2,"name":"slot.overall.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[42,67,450,30]}
+{"kind":"textbox","id":"sh/ovq1krax","slide":2,"name":"decor.page.2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1163,665,54,22]}
+{"kind":"textbox","id":"sh/mt8ji1sr","slide":2,"name":"decor.anonymous.label.2","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[1183,14,58,58]}
+{"kind":"chart","id":"ch/6987y54b","slide":2,"name":"slot.overall.daily.atc_chart","chartType":"line","title":"Daily · Adds to cart","bbox":[48,313,274,157]}
+{"kind":"chart","id":"ch/raho7a5w","slide":2,"name":"slot.overall.daily.purchases_chart","chartType":"line","title":"Daily · Purchases","bbox":[333,313,278,157]}
+{"kind":"chart","id":"ch/8f65ovmx","slide":2,"name":"slot.overall.daily.roas_chart","chartType":"line","title":"Daily · Purchase ROAS","bbox":[48,476,274,160]}
+{"kind":"chart","id":"ch/9gf6x0ni","slide":2,"name":"slot.overall.daily.spend_chart","chartType":"line","title":"Daily · Amount spent","bbox":[333,476,278,160]}
+{"kind":"chart","id":"ch/8fuhw761","slide":2,"name":"slot.overall.product.atc_chart","chartType":"bar","title":"Product · Adds to cart","bbox":[668,313,274,157]}
+{"kind":"chart","id":"ch/7e1g325g","slide":2,"name":"slot.overall.product.purchases_chart","chartType":"bar","title":"Product · Purchases","bbox":[953,313,278,157]}
+{"kind":"chart","id":"ch/6dszuxov","slide":2,"name":"slot.overall.product.roas_chart","chartType":"bar","title":"Product · Purchase ROAS","bbox":[668,476,274,160]}
+{"kind":"chart","id":"ch/hk3y9cni","slide":2,"name":"slot.overall.product.atv_chart","chartType":"bar","title":"Product · Avg. purchase value","bbox":[953,476,278,160]}
+{"kind":"table","id":"tb/ds765kra","slide":2,"name":"slot.overall.comparison_table","rows":3,"cols":11,"preview":"Duration | Amount spent | Purchase value | ROAS | Purchases | Adds to cart | Cost / purchase | Cost / ATC | Link clicks | CTR | ATC rate","bbox":[24,108,1212,156]}
+{"kind":"textbox","id":"sh/sjq947ah","slide":3,"name":"slot.product.product_alpha.title","text":"Paid Media Creative Analysis · PRODUCT ALPHA","textPreview":"Paid Media Creative Analysis · PRODUCT ALPHA","textChars":44,"textLines":1,"bbox":[38,20,1090,48]}
+{"kind":"textbox","id":"sh/tkzqxcr2","slide":3,"name":"slot.product.product_alpha.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[42,67,450,30]}
+{"kind":"textbox","id":"sh/fmh8z29s","slide":3,"name":"decor.creative_label","text":"PINNED CREATIVE","textPreview":"PINNED CREATIVE","textChars":15,"textLines":1,"bbox":[687,112,240,24]}
+{"kind":"textbox","id":"sh/1ozq1cry","slide":3,"name":"slot.product.product_alpha.creative_name","text":"PRODUCT ALPHA · BENEFIT STORY A","textPreview":"PRODUCT ALPHA · BENEFIT STORY A","textChars":31,"textLines":1,"bbox":[688,590,238,57]}
+{"kind":"textbox","id":"sh/3q183m94","slide":3,"name":"decor.page.3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1163,665,54,22]}
+{"kind":"textbox","id":"sh/uhof2xgj","slide":3,"name":"decor.anonymous.label.3","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[1183,14,58,58]}
+{"kind":"table","id":"tb/fm9gfyl4","slide":3,"name":"slot.product.product_alpha.campaign_table","rows":17,"cols":2,"preview":"Campaign metric | Value","bbox":[35,112,620,535]}
+{"kind":"table","id":"tb/3q90jil0","slide":3,"name":"slot.product.product_alpha.creative_table","rows":11,"cols":2,"preview":"Creative metric | Value","bbox":[950,140,286,507]}
+{"kind":"textbox","id":"sh/4fip0v6l","slide":4,"name":"slot.product.product_beta.title","text":"Paid Media Creative Analysis · PRODUCT BETA","textPreview":"Paid Media Creative Analysis · PRODUCT BETA","textChars":43,"textLines":1,"bbox":[38,20,1090,48]}
+{"kind":"textbox","id":"sh/5gr69076","slide":4,"name":"slot.product.product_beta.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[42,67,450,30]}
+{"kind":"textbox","id":"sh/vapo3qp4","slide":4,"name":"decor.creative_label","text":"PINNED CREATIVE","textPreview":"PINNED CREATIVE","textChars":15,"textLines":1,"bbox":[687,112,240,24]}
+{"kind":"textbox","id":"sh/hcr65g7a","slide":4,"name":"slot.product.product_beta.creative_name","text":"PRODUCT BETA · BENEFIT STORY B","textPreview":"PRODUCT BETA · BENEFIT STORY B","textChars":30,"textLines":1,"bbox":[688,590,238,57]}
+{"kind":"textbox","id":"sh/f6tofap8","slide":4,"name":"decor.page.4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1163,665,54,22]}
+{"kind":"textbox","id":"sh/614vatwn","slide":4,"name":"decor.anonymous.label.4","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[1183,14,58,58]}
+{"kind":"table","id":"tb/v614365g","slide":4,"name":"slot.product.product_beta.campaign_table","rows":17,"cols":2,"preview":"Campaign metric | Value","bbox":[35,112,620,535]}
+{"kind":"table","id":"tb/bah4rm5c","slide":4,"name":"slot.product.product_beta.creative_table","rows":11,"cols":2,"preview":"Creative metric | Value","bbox":[950,140,286,507]}
+{"kind":"textbox","id":"sh/rqh07i54","slide":5,"name":"slot.product.product_gamma.title","text":"Paid Media Creative Analysis · PRODUCT GAMMA","textPreview":"Paid Media Creative Analysis · PRODUCT GAMMA","textChars":44,"textLines":1,"bbox":[38,20,1090,48]}
+{"kind":"textbox","id":"sh/qp8jed4z","slide":5,"name":"slot.product.product_gamma.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[42,67,450,30]}
+{"kind":"textbox","id":"sh/0va14nm1","slide":5,"name":"decor.creative_label","text":"PINNED CREATIVE","textPreview":"PINNED CREATIVE","textChars":15,"textLines":1,"bbox":[687,112,240,24]}
+{"kind":"textbox","id":"sh/etsjid4v","slide":5,"name":"slot.product.product_gamma.creative_name","text":"PRODUCT GAMMA · BENEFIT STORY C","textPreview":"PRODUCT GAMMA · BENEFIT STORY C","textChars":31,"textLines":1,"bbox":[688,590,238,57]}
+{"kind":"textbox","id":"sh/oja187mx","slide":5,"name":"decor.page.5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1163,665,54,22]}
+{"kind":"textbox","id":"sh/zet4ba1c","slide":5,"name":"decor.anonymous.label.5","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[1183,14,58,58]}
+{"kind":"table","id":"tb/gr2tgby5","slide":5,"name":"slot.product.product_gamma.campaign_table","rows":17,"cols":2,"preview":"Campaign metric | Value","bbox":[35,112,620,535]}
+{"kind":"table","id":"tb/wvyt47yl","slide":5,"name":"slot.product.product_gamma.creative_table","rows":11,"cols":2,"preview":"Creative metric | Value","bbox":[950,140,286,507]}
+{"kind":"textbox","id":"sh/6t4fyt8f","slide":6,"name":"decor.slide_title","text":"Paid Media Traffic Analysis","textPreview":"Paid Media Traffic Analysis","textChars":27,"textLines":1,"bbox":[38,20,1090,48]}
+{"kind":"textbox","id":"sh/7udg7yp0","slide":6,"name":"slot.traffic.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[42,67,450,30]}
+{"kind":"textbox","id":"sh/h0fyds72","slide":6,"name":"decor.page.6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1163,665,54,22]}
+{"kind":"textbox","id":"sh/fyxgbipc","slide":6,"name":"decor.anonymous.label.6","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[1183,14,58,58]}
+{"kind":"table","id":"tb/1gz25cz6","slide":6,"name":"slot.traffic.table","rows":9,"cols":13,"preview":"Campaign name | Spend | Purchases | ATC | Impr. | Link clicks | CTR | CPM | CPC | LP views | Cost / LPV | LPVR | Product","bbox":[24,112,1212,535]}
+{"kind":"textbox","id":"sh/3e9cbe9s","slide":7,"name":"decor.slide_title","text":"Paid Media Audience Analysis","textPreview":"Paid Media Audience Analysis","textChars":28,"textLines":1,"bbox":[38,20,1090,48]}
+{"kind":"textbox","id":"sh/2tgvit87","slide":7,"name":"slot.audience.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[42,67,450,30]}
+{"kind":"textbox","id":"sh/0n2ds3ql","slide":7,"name":"decor.page.7","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1163,665,54,22]}
+{"kind":"textbox","id":"sh/fexs7mds","slide":7,"name":"decor.anonymous.label.7","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[1183,14,58,58]}
+{"kind":"chart","id":"ch/0vyxcjmd","slide":7,"name":"slot.audience.atc_chart","chartType":"bar","title":"Adds to cart","bbox":[49,128,276,225]}
+{"kind":"chart","id":"ch/zupw3e5s","slide":7,"name":"slot.audience.purchases_chart","chartType":"bar","title":"Purchases","bbox":[333,128,276,225]}
+{"kind":"chart","id":"ch/ytgfa947","slide":7,"name":"slot.audience.roas_chart","chartType":"bar","title":"Purchase ROAS","bbox":[49,372,560,257]}
+{"kind":"table","id":"tb/8ripwbut","slide":7,"name":"slot.audience.table","rows":9,"cols":7,"preview":"Audience / ad set | Product | ATC | Purch. | ROAS | Purchase value | Spend","bbox":[650,112,586,535]}
+{"kind":"textbox","id":"sh/cji54r2l","slide":8,"name":"decor.slide_title","text":"Paid Search Keyword Analysis","textPreview":"Paid Search Keyword Analysis","textChars":28,"textLines":1,"bbox":[38,20,1090,48]}
+{"kind":"textbox","id":"sh/xkr6xw3q","slide":8,"name":"slot.keywords.period","text":"Duration: 1.6–1.12","textPreview":"Duration: 1.6–1.12","textChars":18,"textLines":1,"bbox":[42,67,450,30]}
+{"kind":"textbox","id":"sh/7ato36l8","slide":8,"name":"decor.page.8","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1163,665,54,22]}
+{"kind":"textbox","id":"sh/1gvidkr6","slide":8,"name":"decor.anonymous.label.8","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[1183,14,58,58]}
+{"kind":"chart","id":"ch/ryt0fqtg","slide":8,"name":"slot.keywords.cost_chart","chartType":"bar","title":"Cost","bbox":[49,128,276,225]}
+{"kind":"chart","id":"ch/szm18vu1","slide":8,"name":"slot.keywords.conversions_chart","chartType":"bar","title":"Conversions","bbox":[333,128,276,225]}
+{"kind":"chart","id":"ch/d0vih0bm","slide":8,"name":"slot.keywords.value_cost_chart","chartType":"bar","title":"Conversion value / cost","bbox":[49,372,560,257]}
+{"kind":"table","id":"tb/ormxgbi1","slide":8,"name":"slot.keywords.table","rows":9,"cols":5,"preview":"Keyword | Conversions | Value / cost | Cost | Conversion value","bbox":[650,112,586,535]}

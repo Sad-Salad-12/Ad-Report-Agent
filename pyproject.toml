@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ad-report-agent-mvp"
+version = "0.4.0"
+description = "Local-first weekly advertising source folder to PowerPoint agent"
+requires-python = ">=3.11"
+dependencies = [
+  "openpyxl>=3.1,<4",
+  "pydantic>=2.10,<3"
+]
+
+[project.scripts]
+ad-report-mvp = "ad_report_mvp.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

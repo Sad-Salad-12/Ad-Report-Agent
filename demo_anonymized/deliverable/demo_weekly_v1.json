@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "template_version": "demo-weekly-v1",
+  "market": "MARKET A",
+  "country_label": "REGION A",
+  "currency": "USD",
+  "report_title": "BRAND A Advertising Performance",
+  "keyword_top_n": 8,
+  "products": [
+    {
+      "id": "product_alpha",
+      "display_name": "PRODUCT ALPHA",
+      "aliases": [
+        "PRODUCT ALPHA"
+      ],
+      "creative_pin": "CREATIVE-002",
+      "creative_asset": "../assets/product_alpha_lawn_robot.png"
+    },
+    {
+      "id": "product_beta",
+      "display_name": "PRODUCT BETA",
+      "aliases": [
+        "PRODUCT BETA"
+      ],
+      "creative_pin": "CREATIVE-001",
+      "creative_asset": "../assets/product_beta_floor_robot.png"
+    },
+    {
+      "id": "product_gamma",
+      "display_name": "PRODUCT GAMMA",
+      "aliases": [
+        "PRODUCT GAMMA"
+      ],
+      "creative_pin": "CREATIVE-005",
+      "creative_asset": "../assets/product_gamma_window_robot.png"
+    }
+  ],
+  "history": {
+    "database": "demo_history.sqlite3",
+    "seed_file": "demo_history_seed.json",
+    "required_for_comparison": true
+  },
+  "quality": {
+    "money_tolerance": 0.01,
+    "ratio_tolerance": 0.01,
+    "require_all_three_products": true,
+    "fail_on_missing_creative_metric": true,
+    "fail_on_period_mismatch": true
+  }
+}

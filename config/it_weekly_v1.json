@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "template_version": "it-weekly-v1",
+  "market": "PUBLIC MARKET",
+  "country_label": "PUBLIC REGION",
+  "currency": "USD",
+  "report_title": "PUBLIC BRAND Advertising Performance",
+  "keyword_top_n": 8,
+  "products": [
+    {
+      "id": "public_product_one",
+      "display_name": "PUBLIC PRODUCT ONE",
+      "aliases": ["PUBLIC PRODUCT ONE"],
+      "creative_pin": "PUBLIC-CREATIVE-001",
+      "creative_asset": "public_product_one.png"
+    },
+    {
+      "id": "public_product_two",
+      "display_name": "PUBLIC PRODUCT TWO",
+      "aliases": ["PUBLIC PRODUCT TWO"],
+      "creative_pin": "PUBLIC-CREATIVE-002",
+      "creative_asset": "public_product_two.png"
+    },
+    {
+      "id": "public_product_three",
+      "display_name": "PUBLIC PRODUCT THREE",
+      "aliases": ["PUBLIC PRODUCT THREE"],
+      "creative_pin": "PUBLIC-CREATIVE-003",
+      "creative_asset": "public_product_three.png"
+    }
+  ],
+  "history": {
+    "database": "report_history.sqlite3",
+    "seed_file": "history_seed.json",
+    "required_for_comparison": true
+  },
+  "quality": {
+    "money_tolerance": 0.01,
+    "ratio_tolerance": 0.01,
+    "require_all_three_products": true,
+    "fail_on_missing_creative_metric": true,
+    "fail_on_period_mismatch": true
+  }
+}

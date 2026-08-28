@@ -1,0 +1,8 @@
+{
+  "slide_count": 8,
+  "native_chart_count": 14,
+  "synthetic_metrics": true,
+  "source_identifiers_removed": true,
+  "canonical_report": "BRAND_A_2025-01-06_2025-01-12_anonymized_report.json",
+  "output": "BRAND_A_2025-01-06_2025-01-12_anonymized_report.pptx"
+}

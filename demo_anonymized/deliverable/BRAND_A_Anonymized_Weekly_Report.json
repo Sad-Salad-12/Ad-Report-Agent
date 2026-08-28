@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.0",
+  "template_version": "anonymous-weekly-v1",
+  "market": "MARKET A",
+  "country_label": "REGION A",
+  "currency": "USD",
+  "report_title": "BRAND A · PAID MEDIA WEEKLY REPORT",
+  "period_start": "2025-01-06",
+  "period_end": "2025-01-12",
+  "source_bundle_sha256": null,
+  "source_files": [],
+  "source_periods": [],
+  "lineage": {
+    "mode": "synthetic_demo",
+    "contains_source_identifiers": false
+  },
+  "current_overall": {
+    "period_start": "2025-01-06",
+    "period_end": "2025-01-12",
+    "amount_spent": 3020,
+    "purchase_value": 6308,
+    "purchase_roas": 2.0887417218543045,
+    "purchases": 39,
+    "adds_to_cart": 192,
+    "cost_per_purchase": 77.43589743589743,
+    "cost_per_add_to_cart": 15.729166666666666,
+    "link_clicks": 4200,
+    "ctr": 0.75,
+    "add_to_cart_rate": 4.571428571428571
+  },
+  "previous_overall": {
+    "period_start": "2024-12-30",
+    "period_end": "2025-01-05",
+    "amount_spent": 2800,
+    "purchase_value": 4900,
+    "purchase_roas": 1.75,
+    "purchases": 33,
+    "adds_to_cart": 170,
+    "cost_per_purchase": 84.84848484848484,
+    "cost_per_add_to_cart": 16.470588235294116,
+    "link_clicks": 3900,
+    "ctr": 0.7199995569233496,
+    "add_to_cart_rate": 4.358974358974359
+  },
+  "daily": [
+    {
+      "day": "2025-01-06",
+      "adds_to_cart": 22,
+      "purchases": 4,
+      "purchase_roas": 1.6666666666666667,
+      "amount_spent": 390,
+      "purchase_value": 650
+    },
+    {
+      "day": "2025-01-07",
+      "adds_to_cart": 24,
+      "purchases": 5,
+      "purchase_roas": 1.7560975609756098,
+      "amount_spent": 410,
+      "purchase_value": 720
+    },
+    {
+      "day": "2025-01-08",
+      "adds_to_cart": 25,
+      "purchases": 5,
+      "purchase_roas": 1.8352941176470587,
+      "amount_spent": 425,
+      "purchase_value": 780
+    },
+    {
+      "day": "2025-01-09",
+      "adds_to_cart": 26,
+      "purchases": 5,
+      "purchase_roas": 1.930232558139535,
+      "amount_spent": 430,
+      "purchase_value": 830
+    },
+    {
+      "day": "2025-01-10",
+      "adds_to_cart": 28,
+      "purchases": 6,
+      "purchase_roas": 2.044943820224719,
+      "amount_spent": 445,
+      "purchase_value": 910
+    },
+    {
+      "day": "2025-01-11",
+      "adds_to_cart": 31,
+      "purchases": 7,
+      "purchase_roas": 2.3736263736263736,
+      "amount_spent": 455,
+      "purchase_value": 1080
+    },
+    {
+      "day": "2025-01-12",
+      "adds_to_cart": 36,
+      "purchases": 7,
+      "purchase_roas": 2.8774193548387097,
+      "amount_spent": 465,
+      "purchase_value": 1338
+    }
+  ],
+  "product_summaries": [
+    {
+      "product_id": "product_alpha",
+      "display_name": "PRODUCT ALPHA",
+      "campaign_name": "CONVERSION · PRODUCT ALPHA · PRODUCT PAGE A",
+      "adds_to_cart": 88,
+      "purchases": 20,
+      "purchase_roas": 2.3,
+      "average_purchase_value": 163.3,
+      "purchase_value": 3266,
+      "amount_spent": 1420
+    },
+    {
+      "product_id": "product_beta",
+      "display_name": "PRODUCT BETA",
+      "campaign_name": "CONVERSION · PRODUCT BETA · PRODUCT PAGE B",
+      "adds_to_cart": 65,
+      "purchases": 13,
+      "purchase_roas": 1.9,
+      "average_purchase_value": 143.23076923076923,
+      "purchase_value": 1862,
+      "amount_spent": 980
+    },
+    {
+      "product_id": "product_gamma",
+      "display_name": "PRODUCT GAMMA",
+      "campaign_name": "CONVERSION · PRODUCT GAMMA · PRODUCT PAGE C",
+      "adds_to_cart": 39,
+      "purchases": 6,
+      "purchase_roas": 1.903225806451613,
+      "average_purchase_value": 196.66666666666666,
+      "purchase_value": 1180,
+      "amount_spent": 620
+    }
+  ],
+  "product_analyses": [
+    {
+      "product_id": "product_alpha",
+      "display_name": "PRODUCT ALPHA",
+      "creative_asset": "product_alpha_lawn_robot.png",
+      "summary": {
+        "product_id": "product_alpha",
+        "display_name": "PRODUCT ALPHA",
+        "campaign_name": "CONVERSION · PRODUCT ALPHA · PRODUCT PAGE A",
+        "adds_to_cart": 88,
+        "purchases": 20,
+        "purchase_roas": 2.3,
+        "average_purchase_value": 163.3,
+        "purchase_value": 3266,
+        "amount_spent": 1420
+      },
+      "campaign": {
+        "product_id": "product_alpha",
+        "campaign_name": "CONVERSION · PRODUCT ALPHA · PRODUCT PAGE A",
+        "amount_spent": 1420,
+        "purchase_value": 3266,
+        "purchase_roas": 2.3,
+        "purchases": 20,
+        "adds_to_cart": 88,
+        "cost_per_purchase": 71,
+        "cost_per_add_to_cart": 16.136363636363637,
+        "purchase_rate": 1.0526315789473684,
+        "add_to_cart_rate": 4.631578947368421,
+        "impressions": 271429,
+        "link_clicks": 1900,
+        "ctr": 0.6999988947385872,
+        "cpm": 5.231570686993652,
+        "cpc": 0.7473684210526316,
+        "average_purchase_value": 163.3
+      },
+      "creative": {
+        "product_id": "product_alpha",
+        "ad_name": "PRODUCT ALPHA · BENEFIT STORY A",
+        "campaign_name": "CONVERSION · PRODUCT ALPHA · PRODUCT PAGE A",
+        "amount_spent": 360,
+        "cpm": 5.294117647058823,
+        "cpc": 0.6923076923076923,
+        "ctr": 0.7647058823529412,
+        "cost_per_add_to_cart": 15,
+        "cost_per_purchase": 60,
+        "purchase_roas": 2.5,
+        "average_purchase_value": 150,
+        "adds_to_cart": 24,
+        "purchases": 6
+      }
+    },
+    {
+      "product_id": "product_beta",
+      "display_name": "PRODUCT BETA",
+      "creative_asset": "product_beta_floor_robot.png",
+      "summary": {
+        "product_id": "product_beta",
+        "display_name": "PRODUCT BETA",
+        "campaign_name": "CONVERSION · PRODUCT BETA · PRODUCT PAGE B",
+        "adds_to_cart": 65,
+        "purchases": 13,
+        "purchase_roas": 1.9,
+        "average_purchase_value": 143.23076923076923,
+        "purchase_value": 1862,
+        "amount_spent": 980
+      },
+      "campaign": {
+        "product_id": "product_beta",
+        "campaign_name": "CONVERSION · PRODUCT BETA · PRODUCT PAGE B",
+        "amount_spent": 980,
+        "purchase_value": 1862,
+        "purchase_roas": 1.9,
+        "purchases": 13,
+        "adds_to_cart": 65,
+        "cost_per_purchase": 75.38461538461539,
+        "cost_per_add_to_cart": 15.076923076923077,
+        "purchase_rate": 0.962962962962963,
+        "add_to_cart_rate": 4.814814814814815,
+        "impressions": 180000,
+        "link_clicks": 1350,
+        "ctr": 0.75,
+        "cpm": 5.444444444444445,
+        "cpc": 0.725925925925926,
+        "average_purchase_value": 143.23076923076923
+      },
+      "creative": {
+        "product_id": "product_beta",
+        "ad_name": "PRODUCT BETA · BENEFIT STORY B",
+        "campaign_name": "CONVERSION · PRODUCT BETA · PRODUCT PAGE B",
+        "amount_spent": 280,
+        "cpm": 5.833333333333334,
+        "cpc": 0.7567567567567568,
+        "ctr": 0.7708333333333334,
+        "cost_per_add_to_cart": 15.555555555555555,
+        "cost_per_purchase": 70,
+        "purchase_roas": 1.8,
+        "average_purchase_value": 126,
+        "adds_to_cart": 18,
+        "purchases": 4
+      }
+    },
+    {
+      "product_id": "product_gamma",
+      "display_name": "PRODUCT GAMMA",
+      "creative_asset": "product_gamma_window_robot.png",
+      "summary": {
+        "product_id": "product_gamma",
+        "display_name": "PRODUCT GAMMA",
+        "campaign_name": "CONVERSION · PRODUCT GAMMA · PRODUCT PAGE C",
+        "adds_to_cart": 39,
+        "purchases": 6,
+        "purchase_roas": 1.903225806451613,
+        "average_purchase_value": 196.66666666666666,
+        "purchase_value": 1180,
+        "amount_spent": 620
+      },
+      "campaign": {
+        "product_id": "product_gamma",
+        "campaign_name": "CONVERSION · PRODUCT GAMMA · PRODUCT PAGE C",
+        "amount_spent": 620,
+        "purchase_value": 1180,
+        "purchase_roas": 1.903225806451613,
+        "purchases": 6,
+        "adds_to_cart": 39,
+        "cost_per_purchase": 103.33333333333333,
+        "cost_per_add_to_cart": 15.897435897435898,
+        "purchase_rate": 0.631578947368421,
+        "add_to_cart_rate": 4.105263157894737,
+        "impressions": 108571,
+        "link_clicks": 950,
+        "ctr": 0.8750034539610025,
+        "cpm": 5.710548857429701,
+        "cpc": 0.6526315789473685,
+        "average_purchase_value": 196.66666666666666
+      },
+      "creative": {
+        "product_id": "product_gamma",
+        "ad_name": "PRODUCT GAMMA · BENEFIT STORY C",
+        "campaign_name": "CONVERSION · PRODUCT GAMMA · PRODUCT PAGE C",
+        "amount_spent": 190,
+        "cpm": 5.588235294117648,
+        "cpc": 0.7450980392156863,
+        "ctr": 0.75,
+        "cost_per_add_to_cart": 15.833333333333334,
+        "cost_per_purchase": 95,
+        "purchase_roas": 1.8,
+        "average_purchase_value": 171,
+        "adds_to_cart": 12,
+        "purchases": 2
+      }
+    }
+  ],
+  "traffic": [
+    {
+      "product_id": "product_alpha",
+      "campaign_name": "TRAFFIC · PRODUCT ALPHA · LANDING PAGE A",
+      "amount_spent": 105.5,
+      "purchases": null,
+      "adds_to_cart": null,
+      "impressions": 33000,
+      "link_clicks": 1100,
+      "ctr": 3.3333333333333335,
+      "cpm": 3.196969696969697,
+      "cpc": 0.0959090909090909,
+      "landing_page_views": 780,
+      "cost_per_landing_page_view": 0.13525641025641025,
+      "landing_page_view_rate": 70.9090909090909
+    },
+    {
+      "product_id": "product_beta",
+      "campaign_name": "TRAFFIC · PRODUCT BETA · LANDING PAGE B",
+      "amount_spent": 92.4,
+      "purchases": null,
+      "adds_to_cart": null,
+      "impressions": 28000,
+      "link_clicks": 980,
+      "ctr": 3.5000000000000004,
+      "cpm": 3.3000000000000003,
+      "cpc": 0.09428571428571429,
+      "landing_page_views": 675,
+      "cost_per_landing_page_view": 0.1368888888888889,
+      "landing_page_view_rate": 68.87755102040816
+    },
+    {
+      "product_id": "product_gamma",
+      "campaign_name": "TRAFFIC · PRODUCT GAMMA · LANDING PAGE C",
+      "amount_spent": 76.8,
+      "purchases": null,
+      "adds_to_cart": null,
+      "impressions": 22000,
+      "link_clicks": 720,
+      "ctr": 3.272727272727273,
+      "cpm": 3.4909090909090907,
+      "cpc": 0.10666666666666666,
+      "landing_page_views": 488,
+      "cost_per_landing_page_view": 0.15737704918032785,
+      "landing_page_view_rate": 67.77777777777779
+    }
+  ],
+  "audience": [
+    {
+      "product_id": "product_alpha",
+      "ad_set_name": "AUDIENCE GROUP A · BROAD PROSPECTING",
+      "adds_to_cart": 88,
+      "purchases": 20,
+      "purchase_roas": 2.3,
+      "purchase_value": 3266,
+      "amount_spent": 1420
+    },
+    {
+      "product_id": "product_beta",
+      "ad_set_name": "AUDIENCE GROUP B · BROAD PROSPECTING",
+      "adds_to_cart": 65,
+      "purchases": 13,
+      "purchase_roas": 1.9,
+      "purchase_value": 1862,
+      "amount_spent": 980
+    },
+    {
+      "product_id": "product_gamma",
+      "ad_set_name": "AUDIENCE GROUP C · BROAD PROSPECTING",
+      "adds_to_cart": 39,
+      "purchases": 6,
+      "purchase_roas": 1.903225806451613,
+      "purchase_value": 1180,
+      "amount_spent": 620
+    }
+  ],
+  "keywords": [
+    {
+      "rank": 1,
+      "keyword": "BRAND A",
+      "conversions": 12.4,
+      "conversion_value_per_cost": 5,
+      "cost": 310,
+      "conversion_value": 1550
+    },
+    {
+      "rank": 2,
+      "keyword": "smart garden automation",
+      "conversions": 5.8,
+      "conversion_value_per_cost": 3.4065934065934065,
+      "cost": 182,
+      "conversion_value": 620
+    },
+    {
+      "rank": 3,
+      "keyword": "autonomous floor cleaner",
+      "conversions": 4.6,
+      "conversion_value_per_cost": 3.707317073170732,
+      "cost": 205,
+      "conversion_value": 760
+    },
+    {
+      "rank": 4,
+      "keyword": "automated window care",
+      "conversions": 3.4,
+      "conversion_value_per_cost": 3.046875,
+      "cost": 128,
+      "conversion_value": 390
+    },
+    {
+      "rank": 5,
+      "keyword": "robotic home care",
+      "conversions": 2.9,
+      "conversion_value_per_cost": 2.6293103448275863,
+      "cost": 116,
+      "conversion_value": 305
+    },
+    {
+      "rank": 6,
+      "keyword": "smart cleaning system",
+      "conversions": 2.3,
+      "conversion_value_per_cost": 2.6595744680851063,
+      "cost": 94,
+      "conversion_value": 250
+    },
+    {
+      "rank": 7,
+      "keyword": "floor care accessories",
+      "conversions": 1.7,
+      "conversion_value_per_cost": 1.6388888888888888,
+      "cost": 72,
+      "conversion_value": 118
+    },
+    {
+      "rank": 8,
+      "keyword": "home automation devices",
+      "conversions": 1.2,
+      "conversion_value_per_cost": 1.3770491803278688,
+      "cost": 61,
+      "conversion_value": 84
+    }
+  ]
+}
