@@ -1,0 +1,63 @@
+name: Daily repository maintenance
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+      timezone: "America/New_York"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-maintenance
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update maintenance metadata
+        env:
+          TZ: America/New_York
+        run: |
+          python - <<PY
+          from datetime import datetime
+          import json
+          from pathlib import Path
+
+          now = datetime.now().astimezone()
+          payload = {
+              "updatedAt": now.isoformat(timespec="seconds"),
+              "timezone": "America/New_York",
+              "workflow": "daily-maintenance",
+          }
+          path = Path("docs/maintenance/last-updated.json")
+          path.parent.mkdir(parents=True, exist_ok=True)
+          path.write_text(
+              json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Commit and push
+        env:
+          COMMIT_AUTHOR_NAME: ${{ secrets.COMMIT_AUTHOR_NAME }}
+          COMMIT_AUTHOR_EMAIL: ${{ secrets.COMMIT_AUTHOR_EMAIL }}
+        run: |
+          if [ -z "$COMMIT_AUTHOR_NAME" ]; then COMMIT_AUTHOR_NAME="Sad-Salad-12"; fi
+          if [ -z "$COMMIT_AUTHOR_EMAIL" ]; then COMMIT_AUTHOR_EMAIL="309448566+Sad-Salad-12@users.noreply.github.com"; fi
+          git config user.name "$COMMIT_AUTHOR_NAME"
+          git config user.email "$COMMIT_AUTHOR_EMAIL"
+          git add docs/maintenance/last-updated.json
+          if git diff --cached --quiet; then
+            echo "No maintenance changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh daily maintenance metadata"
+          git push origin HEAD:main
